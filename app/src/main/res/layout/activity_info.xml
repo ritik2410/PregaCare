@@ -1,0 +1,161 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="#fff"
+        tools:context=".organic_about">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginTop="20dp"
+                android:text="Gestational Diabetes"
+                android:textAlignment="center"
+                android:textColor="#FD033F"
+                android:textSize="32sp" />
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/sp"
+                android:layout_gravity="center"/>
+
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:layout_marginBottom="20dp"
+                android:layout_marginTop="15dp"
+                android:fontFamily="sans-serif"
+                android:text="Gestational diabetes is diabetes diagnosed for the first time during pregnancy (gestation). Like other types of diabetes, gestational diabetes affects how your cells use sugar (glucose). Gestational diabetes causes high blood sugar that can affect your pregnancy and your baby's health.\n\nWhile any pregnancy complication is concerning, there's good news. During pregnancy you can help control gestational diabetes by eating healthy foods, exercising and, if necessary, taking medication. Controlling blood sugar can keep you and your baby healthy and prevent a difficult delivery.\n\nIf you have gestational diabetes during pregnancy, generally your blood sugar returns to its usual level soon after delivery. But if you've had gestational diabetes, you have a higher risk of getting type 2 diabetes. You'll need to be tested for changes in blood sugar more often."
+                android:textColor="#000"
+                android:textSize="16sp" />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="What Causes Gestational Diabetes?"
+                android:textColor="#FD033F"
+                android:fontFamily="sans-serif"
+                android:textSize="24sp"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Gestational diabetes occurs when your body can’t make enough insulin during your pregnancy. Insulin is a hormone made by your pancreas that acts like a key to let blood sugar into the cells in your body for use as energy.\n\nDuring pregnancy, your body makes more hormones and goes through other changes, such as weight gain. These changes cause your body’s cells to use insulin less effectively, a condition called insulin resistance. Insulin resistance increases your body’s need for insulin.\n\nAll pregnant women have some insulin resistance during late pregnancy. However, some women have insulin resistance even before they get pregnant. They start pregnancy with an increased need for insulin and are more likely to have gestational diabetes."
+                android:textSize="16sp"
+                android:layout_marginTop="15dp"
+                android:layout_marginBottom="20dp"
+                android:layout_marginRight="10dp"
+                android:layout_marginLeft="10dp"
+                android:fontFamily="sans-serif"
+                android:textColor="#000"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Symptoms and Risk Factors"
+                android:textColor="#FD033F"
+                android:fontFamily="sans-serif"
+                android:textSize="24sp"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Gestational diabetes typically doesn’t have any symptoms. Your medical history and whether you have any risk factors may suggest to your doctor that you could have gestational diabetes, but you’ll need to be tested to know for sure."
+                android:textSize="16sp"
+                android:layout_marginTop="15dp"
+                android:layout_marginBottom="20dp"
+                android:layout_marginRight="10dp"
+                android:layout_marginLeft="10dp"
+                android:fontFamily="sans-serif"
+                android:textColor="#000"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Testing for Gestational Diabetes"
+                android:textColor="#FD033F"
+                android:fontFamily="sans-serif"
+                android:textSize="24sp"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="16sp"
+                android:text="It’s important to be tested for gestational diabetes so you can begin treatment to protect your health and your baby’s health.\n\nGestational diabetes usually develops around the 24th week of pregnancy, so you’ll probably be tested between 24 and 28 weeks.\n\nIf you’re at higher risk for gestational diabetes, your doctor may test you earlier. Blood sugar that’s higher than normal early in your pregnancy may indicate you have type 1 or type 2 diabetes rather than gestational diabetes."
+                android:layout_marginTop="15dp"
+                android:layout_marginBottom="20dp"
+                android:layout_marginRight="10dp"
+                android:layout_marginLeft="10dp"
+                android:fontFamily="sans-serif"
+                android:textColor="#000"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Prevention"
+                android:textColor="#FD033F"
+                android:fontFamily="sans-serif"
+                android:textSize="24sp"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="16sp"
+                android:text="Before you get pregnant, you may be able to prevent gestational diabetes by losing weight if you’re overweight and getting regular physical activity.\n\nDon’t try to lose weight if you’re already pregnant. You’ll need to gain some weight—but not too quickly—for your baby to be healthy. Talk to your doctor about how much weight you should gain for a healthy pregnancy."
+                android:layout_marginTop="15dp"
+                android:layout_marginBottom="20dp"
+                android:layout_marginRight="10dp"
+                android:layout_marginLeft="10dp"
+                android:fontFamily="sans-serif"
+                android:textColor="#000"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Treatment for Gestational Diabetes"
+                android:textColor="#FD033F"
+                android:fontFamily="sans-serif"
+                android:textSize="24sp"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="16sp"
+                android:text="You can do a lot to manage your gestational diabetes. Go to all your prenatal appointments and follow your treatment plan, including:\n\n- Checking your blood sugar to make sure your levels stay in a healthy range.\n\n- Eating healthy food in the right amounts at the right times. Follow a healthy eating plan created by your doctor or dietitian.\n\n- Being active. Regular physical activity that’s moderately intense (such as brisk walking) lowers your blood sugar and makes you more sensitive to insulin so your body won’t need as much. Make sure to check with your doctor about what kind of physical activity you can do and if there are any kinds you should avoid.\n\n- Monitoring your baby. Your doctor will check your baby’s growth and development.\n\nIf healthy eating and being active aren’t enough to manage your blood sugar, your doctor may prescribe insulin, metformin, or other medication."
+                android:layout_marginTop="15dp"
+                android:layout_marginBottom="20dp"
+                android:layout_marginRight="10dp"
+                android:layout_marginLeft="10dp"
+                android:fontFamily="sans-serif"
+                android:textColor="#000"/>
+
+        </LinearLayout>
+    </FrameLayout>
+</ScrollView>
